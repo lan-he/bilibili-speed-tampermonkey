@@ -14,7 +14,7 @@ export default defineConfig({
                     '在百度翻译的界面会出现三种格式的英文翻译的结果供你选择,方便程序员命名(小驼峰、class类名)',
                 version: '1.0.0',
                 author: '何明暄',
-                icon: 'https://fanyi.baidu.com/logo.svg',
+                icon: 'https://fanyi.baidu.com/favicon.ico',
                 namespace: 'npm/vite-plugin-monkey',
                 match: ['https://fanyi.baidu.com/'],
             },
