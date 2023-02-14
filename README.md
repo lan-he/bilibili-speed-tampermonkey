@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# Tampermonkey 油猴脚本 翻译插件
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![xin-01_00.png](https://www.tampermonkey.net/favicon.ico)
 
-## Recommended IDE Setup
+快速生成多种格式，点击可以复制
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![xin-01_00.png](src/assets/screenshot.png)
+
+复制 `dist/baidufanyi.user.js` 内文件，粘贴入油猴新建用户脚本即可使用
