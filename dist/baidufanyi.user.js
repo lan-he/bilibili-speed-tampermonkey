@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name       baidufanyi
-// @namespace  npm/vite-plugin-monkey
-// @version    0.0.0
-// @author     monkey
-// @icon       https://vitejs.dev/logo.svg
-// @match      https://fanyi.baidu.com/
-// @require    https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.prod.js
+// @name         百度翻译生成多种翻译格式
+// @namespace    npm/vite-plugin-monkey
+// @version      1.0.0
+// @author       何明暄
+// @description  在百度翻译的界面会出现三种格式的英文翻译的结果供你选择,方便程序员命名(小驼峰、class类名)
+// @icon         https://fanyi.baidu.com/logo.svg
+// @match        https://fanyi.baidu.com/
+// @require      https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.prod.js
 // ==/UserScript==
 
 (t=>{const e=document.createElement("style");e.dataset.source="vite-plugin-monkey",e.innerText=t,document.head.appendChild(e)})('.translation-format-box[data-v-31631479]{width:1200px;margin:20px auto auto;z-index:99;box-sizing:border-box;border:2px solid transparent;border-radius:16px;background-clip:padding-box,border-box;background-origin:padding-box,border-box;background-image:linear-gradient(0deg,rgba(225,235,255,.3),rgba(225,235,255,.3)),linear-gradient(113.58deg,#fff 16.99%,#e6eeff 94.11%)}.translation-format-content-bg[data-v-31631479]{width:100%;min-height:180px;border-radius:14px;background:linear-gradient(0deg,#f4f7ff,#f4f7ff),linear-gradient(94.84deg,#fff 3.78%,#fcfdff 9.75%,#e6eeff 102.09%),linear-gradient(126.58deg,#fff -18.12%,hsla(0,0%,100%,0) 26.77%);display:flex;position:relative}.translation-format-content[data-v-31631479]{padding:20px;width:33.33%;overflow-wrap:anywhere;box-sizing:border-box;font-size:24px;border:none;outline:none;resize:none;background:transparent;cursor:pointer;position:relative}.copy-prompt-box[data-v-31631479]{width:80px;padding:10px 20px;font-size:14px;box-shadow:0 2px 12px #0000001a;border-radius:4px;border:1px solid #ebeef5;background-color:#fff;position:absolute;top:-30px;left:50%;user-select:none;transform:translate(-50%);transition:.3s;opacity:0;text-align:center}.copy-prompt-box-show[data-v-31631479]{opacity:1}.line[data-v-31631479]{height:auto;margin-top:20px;margin-bottom:20px;border-right-width:1px;border-right-style:dashed;border-color:#c8c9cc}.author-information[data-v-31631479]{font-size:22px;font-weight:600;color:#e4e4e4;position:absolute;right:10px;bottom:10px;user-select:none}.click-copy[data-v-31631479]{font-size:12px;color:#000;position:absolute;left:50%;transform:translate(-50%);bottom:-30px;user-select:none}html[data-v-aa95108f]{box-sizing:border-box;font-size:62.5%;overflow-y:scroll;@media screen and (min-width: 900px){font-size:75%}}.mask[data-v-aa95108f]{width:100%;height:65vh;background:#edf1f9;position:absolute;z-index:9;left:0;top:298px}.show-hide-switch[data-v-aa95108f]{background-color:#f9f9f9;position:absolute;top:600px;left:50%;transform:translate(-50%);z-index:99;border-radius:3rem;box-shadow:.8rem .8rem 1.4rem #c8d0e7,-.2rem -.2rem 1.8rem #f9f9f9;box-sizing:inherit;user-select:none}.show-hide-switch svg[data-v-aa95108f]{width:30px;height:30px;position:absolute;bottom:-40px;left:50%;transform:translate(-50%)}.show-hide-switch .icondowm[data-v-aa95108f]{bottom:-42px}.switch__1[data-v-aa95108f]{width:6rem}.switch__1 label[data-v-aa95108f]{display:flex;align-items:center;width:100%;height:3rem;box-shadow:.3rem .3rem .6rem #c8d0e7,-.2rem -.2rem .5rem #fff;background:rgba(255,255,255,0);position:relative;cursor:pointer;border-radius:1.6rem}.switch__1 label[data-v-aa95108f]:after{content:"";position:absolute;left:.4rem;width:2.1rem;height:2.1rem;border-radius:50%;background:#9baacf;transition:all .4s ease}.switch__1 .open-switch[data-v-aa95108f]:after{left:57%;background:#e4ebf5}.switch__1 label[data-v-aa95108f]:before{content:"";width:100%;height:100%;border-radius:inherit;background:linear-gradient(330deg,#5b0eeb 0%,#6d5dfc 50%,#8abdff 100%);opacity:0;transition:all .4s ease}.switch__1 .open-switch[data-v-aa95108f]:before{opacity:1}');
