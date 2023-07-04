@@ -4,17 +4,17 @@
 // @version      1.0.0
 // @author       何明暄
 // @description  在百度翻译的界面会出现三种格式的英文翻译的结果供你选择,方便程序员命名(小驼峰、class类名)
-// @icon         https://fanyi.baidu.com/logo.svg
+// @icon         https://fanyi.baidu.com/favicon.ico
 // @match        https://fanyi.baidu.com/
 // @require      https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.prod.js
 // ==/UserScript==
 
-(t=>{const e=document.createElement("style");e.dataset.source="vite-plugin-monkey",e.innerText=t,document.head.appendChild(e)})('.translation-format-box[data-v-31631479]{width:1200px;margin:20px auto auto;z-index:99;box-sizing:border-box;border:2px solid transparent;border-radius:16px;background-clip:padding-box,border-box;background-origin:padding-box,border-box;background-image:linear-gradient(0deg,rgba(225,235,255,.3),rgba(225,235,255,.3)),linear-gradient(113.58deg,#fff 16.99%,#e6eeff 94.11%)}.translation-format-content-bg[data-v-31631479]{width:100%;min-height:180px;border-radius:14px;background:linear-gradient(0deg,#f4f7ff,#f4f7ff),linear-gradient(94.84deg,#fff 3.78%,#fcfdff 9.75%,#e6eeff 102.09%),linear-gradient(126.58deg,#fff -18.12%,hsla(0,0%,100%,0) 26.77%);display:flex;position:relative}.translation-format-content[data-v-31631479]{padding:20px;width:33.33%;overflow-wrap:anywhere;box-sizing:border-box;font-size:24px;border:none;outline:none;resize:none;background:transparent;cursor:pointer;position:relative}.copy-prompt-box[data-v-31631479]{width:80px;padding:10px 20px;font-size:14px;box-shadow:0 2px 12px #0000001a;border-radius:4px;border:1px solid #ebeef5;background-color:#fff;position:absolute;top:-30px;left:50%;user-select:none;transform:translate(-50%);transition:.3s;opacity:0;text-align:center}.copy-prompt-box-show[data-v-31631479]{opacity:1}.line[data-v-31631479]{height:auto;margin-top:20px;margin-bottom:20px;border-right-width:1px;border-right-style:dashed;border-color:#c8c9cc}.author-information[data-v-31631479]{font-size:22px;font-weight:600;color:#e4e4e4;position:absolute;right:10px;bottom:10px;user-select:none}.click-copy[data-v-31631479]{font-size:12px;color:#000;position:absolute;left:50%;transform:translate(-50%);bottom:-30px;user-select:none}html[data-v-aa95108f]{box-sizing:border-box;font-size:62.5%;overflow-y:scroll;@media screen and (min-width: 900px){font-size:75%}}.mask[data-v-aa95108f]{width:100%;height:65vh;background:#edf1f9;position:absolute;z-index:9;left:0;top:298px}.show-hide-switch[data-v-aa95108f]{background-color:#f9f9f9;position:absolute;top:600px;left:50%;transform:translate(-50%);z-index:99;border-radius:3rem;box-shadow:.8rem .8rem 1.4rem #c8d0e7,-.2rem -.2rem 1.8rem #f9f9f9;box-sizing:inherit;user-select:none}.show-hide-switch svg[data-v-aa95108f]{width:30px;height:30px;position:absolute;bottom:-40px;left:50%;transform:translate(-50%)}.show-hide-switch .icondowm[data-v-aa95108f]{bottom:-42px}.switch__1[data-v-aa95108f]{width:6rem}.switch__1 label[data-v-aa95108f]{display:flex;align-items:center;width:100%;height:3rem;box-shadow:.3rem .3rem .6rem #c8d0e7,-.2rem -.2rem .5rem #fff;background:rgba(255,255,255,0);position:relative;cursor:pointer;border-radius:1.6rem}.switch__1 label[data-v-aa95108f]:after{content:"";position:absolute;left:.4rem;width:2.1rem;height:2.1rem;border-radius:50%;background:#9baacf;transition:all .4s ease}.switch__1 .open-switch[data-v-aa95108f]:after{left:57%;background:#e4ebf5}.switch__1 label[data-v-aa95108f]:before{content:"";width:100%;height:100%;border-radius:inherit;background:linear-gradient(330deg,#5b0eeb 0%,#6d5dfc 50%,#8abdff 100%);opacity:0;transition:all .4s ease}.switch__1 .open-switch[data-v-aa95108f]:before{opacity:1}');
+(t=>{const e=document.createElement("style");e.dataset.source="vite-plugin-monkey",e.innerText=t,document.head.appendChild(e)})('.translation-format-box[data-v-2062befc]{width:1200px;margin:20px auto auto;z-index:99;box-sizing:border-box;border:2px solid transparent;border-radius:16px;background-clip:padding-box,border-box;background-origin:padding-box,border-box;background-image:linear-gradient(0deg,rgba(225,235,255,.3),rgba(225,235,255,.3)),linear-gradient(113.58deg,#fff 16.99%,#e6eeff 94.11%)}.translation-format-content-bg[data-v-2062befc]{width:100%;min-height:180px;border-radius:14px;background:linear-gradient(0deg,#f4f7ff,#f4f7ff),linear-gradient(94.84deg,#fff 3.78%,#fcfdff 9.75%,#e6eeff 102.09%),linear-gradient(126.58deg,#fff -18.12%,hsla(0,0%,100%,0) 26.77%);display:flex;position:relative}.translation-format-content[data-v-2062befc]{padding:20px;width:33.33%;overflow-wrap:anywhere;box-sizing:border-box;font-size:24px;border:none;outline:none;resize:none;background:transparent;cursor:pointer;position:relative}.copy-prompt-box[data-v-2062befc]{width:80px;padding:10px 20px;font-size:14px;box-shadow:0 2px 12px #0000001a;border-radius:4px;border:1px solid #ebeef5;background-color:#fff;position:absolute;top:-30px;left:50%;user-select:none;transform:translate(-50%);transition:.3s;opacity:0;text-align:center}.copy-prompt-box-show[data-v-2062befc]{opacity:1}.line[data-v-2062befc]{height:auto;margin-top:20px;margin-bottom:20px;border-right-width:1px;border-right-style:dashed;border-color:#c8c9cc}.author-information[data-v-2062befc]{font-size:22px;font-weight:600;color:#e4e4e4;position:absolute;right:10px;bottom:10px;user-select:none}.click-copy[data-v-2062befc]{font-size:12px;color:#000;position:absolute;left:50%;transform:translate(-50%);bottom:-30px;user-select:none}html[data-v-52d3de27]{box-sizing:border-box;font-size:62.5%;overflow-y:scroll;@media screen and (min-width: 900px){font-size:75%}}.mask[data-v-52d3de27]{width:100%;height:65vh;background:#edf1f9;position:absolute;z-index:9;left:0;top:306px;background-color:#ffffffb3;backdrop-filter:blur(10px)}.show-hide-switch[data-v-52d3de27]{background-color:#f9f9f9;position:absolute;top:600px;left:50%;transform:translate(-50%);z-index:99;border-radius:3rem;box-shadow:.8rem .8rem 1.4rem #c8d0e7,-.2rem -.2rem 1.8rem #f9f9f9;box-sizing:inherit;user-select:none}.show-hide-switch svg[data-v-52d3de27]{width:30px;height:30px;position:absolute;bottom:-40px;left:50%;transform:translate(-50%)}.show-hide-switch .icondowm[data-v-52d3de27]{bottom:-42px}.switch__1[data-v-52d3de27]{width:6rem}.switch__1 label[data-v-52d3de27]{display:flex;align-items:center;width:100%;height:3rem;box-shadow:.3rem .3rem .6rem #c8d0e7,-.2rem -.2rem .5rem #fff;background:rgba(255,255,255,0);position:relative;cursor:pointer;border-radius:1.6rem}.switch__1 label[data-v-52d3de27]:after{content:"";position:absolute;left:.4rem;width:2.1rem;height:2.1rem;border-radius:50%;background:#9baacf;transition:all .4s ease}.switch__1 .open-switch[data-v-52d3de27]:after{left:57%;background:#e4ebf5}.switch__1 label[data-v-52d3de27]:before{content:"";width:100%;height:100%;border-radius:inherit;background:linear-gradient(330deg,#5b0eeb 0%,#6d5dfc 50%,#8abdff 100%);opacity:0;transition:all .4s ease}.switch__1 .open-switch[data-v-52d3de27]:before{opacity:1}');
 
 (function(vue) {
   "use strict";
   const style = "";
-  const translationFormat_vue_vue_type_style_index_0_scoped_31631479_lang = "";
+  const translationFormat_vue_vue_type_style_index_0_scoped_2062befc_lang = "";
   const _export_sfc = (sfc, props) => {
     const target = sfc.__vccOpts || sfc;
     for (const [key, val] of props) {
@@ -22,7 +22,7 @@
     }
     return target;
   };
-  const _withScopeId$1 = (n) => (vue.pushScopeId("data-v-31631479"), n = n(), vue.popScopeId(), n);
+  const _withScopeId$1 = (n) => (vue.pushScopeId("data-v-2062befc"), n = n(), vue.popScopeId(), n);
   const _hoisted_1$1 = { class: "translation-format-box" };
   const _hoisted_2$1 = { class: "translation-format-content-bg" };
   const _hoisted_3$1 = /* @__PURE__ */ _withScopeId$1(() => /* @__PURE__ */ vue.createElementVNode("div", { class: "line" }, null, -1));
@@ -84,6 +84,9 @@
       };
       let translateHTML = document.querySelector("#baidu_translate_input");
       translateHTML.addEventListener("input", addEventListenerInput);
+      setInterval(() => {
+        addEventListenerInput();
+      }, 2e3);
       return (_ctx, _cache) => {
         return vue.openBlock(), vue.createElementBlock("div", _hoisted_1$1, [
           vue.createElementVNode("div", _hoisted_2$1, [
@@ -94,7 +97,7 @@
               vue.createTextVNode(vue.toDisplayString(state.lowercaseLetter) + " ", 1),
               vue.createElementVNode("div", {
                 class: vue.normalizeClass(["copy-prompt-box", { "copy-prompt-box-show": state.copyPromptBoxShow == 1 }])
-              }, " 复制成功 ", 2)
+              }, "复制成功", 2)
             ]),
             _hoisted_3$1,
             vue.createElementVNode("div", {
@@ -104,7 +107,7 @@
               vue.createTextVNode(vue.toDisplayString(state.strikethrough) + " ", 1),
               vue.createElementVNode("div", {
                 class: vue.normalizeClass(["copy-prompt-box", { "copy-prompt-box-show": state.copyPromptBoxShow == 2 }])
-              }, " 复制成功 ", 2)
+              }, "复制成功", 2)
             ]),
             _hoisted_4$1,
             vue.createElementVNode("div", {
@@ -114,7 +117,7 @@
               vue.createTextVNode(vue.toDisplayString(state.capital) + " ", 1),
               vue.createElementVNode("div", {
                 class: vue.normalizeClass(["copy-prompt-box", { "copy-prompt-box-show": state.copyPromptBoxShow == 3 }])
-              }, " 复制成功 ", 2)
+              }, "复制成功", 2)
             ]),
             _hoisted_5$1,
             _hoisted_6$1
@@ -123,9 +126,9 @@
       };
     }
   };
-  const TranslationFormat = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-31631479"]]);
-  const App_vue_vue_type_style_index_0_scoped_aa95108f_lang = "";
-  const _withScopeId = (n) => (vue.pushScopeId("data-v-aa95108f"), n = n(), vue.popScopeId(), n);
+  const TranslationFormat = /* @__PURE__ */ _export_sfc(_sfc_main$1, [["__scopeId", "data-v-2062befc"]]);
+  const App_vue_vue_type_style_index_0_scoped_52d3de27_lang = "";
+  const _withScopeId = (n) => (vue.pushScopeId("data-v-52d3de27"), n = n(), vue.popScopeId(), n);
   const _hoisted_1 = {
     key: 0,
     class: "mask"
@@ -206,7 +209,7 @@
       };
     }
   };
-  const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-aa95108f"]]);
+  const App = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-52d3de27"]]);
   vue.createApp(App).mount(
     (() => {
       const app = document.createElement("div");

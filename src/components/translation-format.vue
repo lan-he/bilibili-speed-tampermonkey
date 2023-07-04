@@ -6,7 +6,7 @@ const state = reactive({
     strikethrough: '', // 中划线分割
     capital: '',
     timeer: null,
-    copyPromptBoxShow: 0,
+    copyPromptBoxShow: 0
 })
 const addEventListenerInput = () => {
     if (state.timeer) {
@@ -51,6 +51,9 @@ const selectCopy = async (select, index) => {
 }
 let translateHTML = document.querySelector('#baidu_translate_input')
 translateHTML.addEventListener('input', addEventListenerInput)
+setInterval(() => {
+    addEventListenerInput()
+}, 2000)
 </script>
 
 <template>
@@ -58,29 +61,17 @@ translateHTML.addEventListener('input', addEventListenerInput)
         <div class="translation-format-content-bg">
             <div class="translation-format-content" @click="selectCopy(state.lowercaseLetter, 1)">
                 {{ state.lowercaseLetter }}
-                <div
-                    class="copy-prompt-box"
-                    :class="{ 'copy-prompt-box-show': state.copyPromptBoxShow == 1 }">
-                    复制成功
-                </div>
+                <div class="copy-prompt-box" :class="{ 'copy-prompt-box-show': state.copyPromptBoxShow == 1 }">复制成功</div>
             </div>
             <div class="line"></div>
             <div class="translation-format-content" @click="selectCopy(state.strikethrough, 2)">
                 {{ state.strikethrough }}
-                <div
-                    class="copy-prompt-box"
-                    :class="{ 'copy-prompt-box-show': state.copyPromptBoxShow == 2 }">
-                    复制成功
-                </div>
+                <div class="copy-prompt-box" :class="{ 'copy-prompt-box-show': state.copyPromptBoxShow == 2 }">复制成功</div>
             </div>
             <div class="line"></div>
             <div class="translation-format-content" @click="selectCopy(state.capital, 3)">
                 {{ state.capital }}
-                <div
-                    class="copy-prompt-box"
-                    :class="{ 'copy-prompt-box-show': state.copyPromptBoxShow == 3 }">
-                    复制成功
-                </div>
+                <div class="copy-prompt-box" :class="{ 'copy-prompt-box-show': state.copyPromptBoxShow == 3 }">复制成功</div>
             </div>
             <div class="author-information">by: hemingxuan</div>
             <div class="click-copy">点击即可复制</div>
@@ -99,16 +90,13 @@ translateHTML.addEventListener('input', addEventListenerInput)
     border-radius: 16px;
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
-    background-image: linear-gradient(0deg, rgba(225, 235, 255, 0.3), rgba(225, 235, 255, 0.3)),
-        linear-gradient(113.58deg, #fff 16.99%, #e6eeff 94.11%);
+    background-image: linear-gradient(0deg, rgba(225, 235, 255, 0.3), rgba(225, 235, 255, 0.3)), linear-gradient(113.58deg, #fff 16.99%, #e6eeff 94.11%);
 }
 .translation-format-content-bg {
     width: 100%;
     min-height: 180px;
     border-radius: 14px;
-    background: linear-gradient(0deg, #f4f7ff, #f4f7ff),
-        linear-gradient(94.84deg, #fff 3.78%, #fcfdff 9.75%, #e6eeff 102.09%),
-        linear-gradient(126.58deg, #fff -18.12%, hsla(0, 0%, 100%, 0) 26.77%);
+    background: linear-gradient(0deg, #f4f7ff, #f4f7ff), linear-gradient(94.84deg, #fff 3.78%, #fcfdff 9.75%, #e6eeff 102.09%), linear-gradient(126.58deg, #fff -18.12%, hsla(0, 0%, 100%, 0) 26.77%);
     display: flex;
     position: relative;
 }
