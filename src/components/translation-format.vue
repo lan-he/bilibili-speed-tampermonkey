@@ -14,10 +14,11 @@ const addEventListenerInput = () => {
         clearTimeout(state.timeer)
     }
     state.timeer = setTimeout(() => {
-        const innerHTML =
-            document.querySelector('.ordinary-output span')?.innerHTML ||
-            document.querySelector('.ordinary-output')?.innerHTML ||
+        let innerHTML =
+            document.querySelector('.ordinary-output.target-output span')?.innerHTML ||
+            document.querySelector('.ordinary-output.target-output')?.innerHTML ||
             document.querySelector('.target-output')?.innerHTML
+        innerHTML = innerHTML.trim()
         if (innerHTML) {
             state.lowercaseLetter = convertStringToCamelCase(innerHTML)
             state.strikethrough = convertStringToStrikethrough(innerHTML)
