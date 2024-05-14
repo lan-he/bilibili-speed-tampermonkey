@@ -5,6 +5,7 @@
 // @description  通过可拖动的滑块和快速选择按钮修改哔哩哔哩的视频播放速度，并具有记忆功能 ｜ Modify Bilibili video playback speed with a draggable slider and quick selection buttons, with memory function.
 // @author       hemingxuan
 // @match        *://www.bilibili.com/video/*
+// @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
 // ==/UserScript==
 
