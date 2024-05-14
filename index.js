@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         bilibili播放视频倍速可随意拖动 0.5x-4x 随意自定义
 // @namespace    http://tampermonkey.net/
-// @version      2.0
+// @version      2.1
 // @description  通过可拖动的滑块和快速选择按钮修改哔哩哔哩的视频播放速度，并具有记忆功能 ｜ Modify Bilibili video playback speed with a draggable slider and quick selection buttons, with memory function.
 // @author       hemingxuan
 // @match        *://www.bilibili.com/video/*
